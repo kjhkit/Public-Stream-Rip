@@ -30,11 +30,18 @@ MODIFIYING StreamRipManager.java
 # Compiling and Running the Scripts
 
 You must have a java compiler installed in order to compile the source code into runnable applications.  This can be downloaded for free by searching for "JDK Download"
-There are many resources available for instruction on how to compile these files, but here are basic instructions on how to compile this code:
+There are many resources available for instruction on how to compile these files, but here are basic instructions on how to compile this code.
+
     Using the command prompt or a similar terminal application, navigate to the directory where the source code is located.  Enter the following to compile the code (after modifying of course):
+    
         javac StreamRipper.java
+        
         javac StreamRipManager.java
+        
     Then enter the following to run the scripts:
+    
         java StreamRipper
+        
         java StreamRipManager
+        
     You will need to use two separate command prompt instances (windows) to run both scripts.  To stop either script just exit the command prompt window that the script in question is running from.
